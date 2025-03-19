@@ -40,12 +40,14 @@ hr {
 
 @media (width >= 800px) {
   .skillList {
+    width: auto;
     max-width: fit-content;
-    gap: 30px;
+    column-gap: 30px;
+    row-gap: 40px;
+  }
 
-    p {
-      font-size: 20px;
-    }
+  .skillList p {
+    font-size: 20px;
   }
 
   hr {
